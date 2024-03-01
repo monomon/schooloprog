@@ -1,0 +1,4 @@
+(library
+ (name schooloprog)
+ (public_name schooloprog)
+ (libraries icalendar ptime sexplib))

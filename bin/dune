@@ -1,0 +1,4 @@
+(executable
+ (public_name schooloprog)
+ (name main)
+ (libraries schooloprog icalendar ptime sexplib))

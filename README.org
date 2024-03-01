@@ -1,0 +1,21 @@
+* Schooloprog
+
+Small learning project for OCaml.
+
+- Generate a school program from sexp description and export to icalendar.
+- Classes are automatically weekly recurrent.
+- Holidays are added as exceptions to classes.
+
+Uses the wonderful [[https://github.com/robur-coop/icalendar][icalendar OCaml library]].
+
+*Note:* The vtimzone information is wrong.
+
+Build it with
+#+begin_src shell
+dune build
+#+end_src
+
+Run it with
+#+begin_src shell
+dune exec schooloprog
+#+end_src
